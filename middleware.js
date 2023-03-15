@@ -5,7 +5,7 @@ app.use(function(req, res, next) {
   next();  
 });  
 app.get('/', function(req, res, next) {  
-  res.send('Welcome to JavaTpoint!');  
+  res.send('Welcome to Express Js!');  
 });  
 app.get('/help', function(req, res, next) {  
   res.send('How can I help you?');  
